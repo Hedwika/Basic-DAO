@@ -9,8 +9,8 @@ export function useGetBalance() {
         await axios.get(`/get_balance?address=${walletAddress}`).then((res) => {
             const balance = res.data[0].balance
             const decimals = 18
-            const balanceInMRST = ethers.utils.formatUnits(balance, decimals);
-            setUserBalance(balanceInMRST)
+            const balanceInRED = ethers.utils.formatUnits(balance, decimals);
+            setUserBalance(balanceInRED)
 
         }).catch((err) => console.log(err))
     }

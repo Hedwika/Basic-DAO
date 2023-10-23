@@ -9,8 +9,8 @@ from brownie import (
     accounts,
     chain,
 )
-from scripts.helpful_scripts import get_account
-from scripts.deploy_contracts import deploy_contracts
+from .helpful_scripts import get_account
+from .deploy_contracts import deploy_contracts
 from web3 import Web3
 import time
 

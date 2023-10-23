@@ -27,8 +27,8 @@ contract GovernanceToken is ERC20Votes {
     address[] public s_holders;
 
     constructor(uint256 _keepPercentage)
-        ERC20("MoralisToken", "MRST")
-        ERC20Permit("MoralisToken")
+        ERC20("RealEstateDAOToken", "RED")
+        ERC20Permit("RealEstateDAOToken")
     {
         uint256 keepAmount = (TOTAL_SUPPLY * _keepPercentage) / 100;
         _mint(msg.sender, TOTAL_SUPPLY);
@@ -71,6 +71,3 @@ contract GovernanceToken is ERC20Votes {
         emit TokenBurned(account, amount);
     }
 }
-
-// Hot Proposal Coming up => Buy a ton of tokens and dump them after voting is over
-// We need to prevent that by setting a Snapshop of tokens at a certain block.

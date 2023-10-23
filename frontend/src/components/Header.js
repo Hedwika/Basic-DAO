@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import GlobalStyles from '@mui/material/GlobalStyles';
 import Container from '@mui/material/Container';
-import Logo from '../img/moralis-logo.png'
+import Logo from '../img/red-logo.png'
 
 
 
@@ -72,7 +72,7 @@ export const Header = ({ isConnected, account, signer, connectToMetamask }) => {
                     color="text.primary"
                     gutterBottom
                 >
-                    Moralis DAO
+                    Real Estate DAO
                 </Typography>
                 <Typography variant="h5" align="center" color="text.secondary" component="p">
                     Shape the future of our decentralized community. Join our DAO and have a say in our collective decision-making process. Participate in discussions, propose new ideas, and cast your vote on important issues. Engage with like-minded individuals and help us build a better tomorrow, together.

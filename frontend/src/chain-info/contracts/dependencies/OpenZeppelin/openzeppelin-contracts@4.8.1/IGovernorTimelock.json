@@ -768,32 +768,32 @@
     }
   ],
   "allSourcePaths": {
-    "10": "/Users/cromewar/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/extensions/IGovernorTimelock.sol",
-    "29": "/Users/cromewar/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/utils/introspection/IERC165.sol",
-    "3": "/Users/cromewar/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/IGovernor.sol"
+    "11": "/Users/hedvikapajerova/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/extensions/IGovernorTimelock.sol",
+    "30": "/Users/hedvikapajerova/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/utils/introspection/IERC165.sol",
+    "4": "/Users/hedvikapajerova/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/IGovernor.sol"
   },
   "ast": {
-    "absolutePath": "/Users/cromewar/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/extensions/IGovernorTimelock.sol",
+    "absolutePath": "/Users/hedvikapajerova/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/extensions/IGovernorTimelock.sol",
     "exportedSymbols": {
       "ERC165": [
-        4960
+        6050
       ],
       "IERC165": [
-        10295
+        10788
       ],
       "IGovernor": [
-        3796
+        4908
       ],
       "IGovernorTimelock": [
-        7797
+        7974
       ]
     },
-    "id": 7798,
+    "id": 7975,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 7758,
+        "id": 7935,
         "literals": [
           "solidity",
           "^",
@@ -801,17 +801,17 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "112:23:10"
+        "src": "112:23:11"
       },
       {
-        "absolutePath": "/Users/cromewar/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/IGovernor.sol",
+        "absolutePath": "/Users/hedvikapajerova/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/IGovernor.sol",
         "file": "../IGovernor.sol",
-        "id": 7759,
+        "id": 7936,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 7798,
-        "sourceUnit": 3797,
-        "src": "137:26:10",
+        "scope": 7975,
+        "sourceUnit": 4909,
+        "src": "137:26:11",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -820,61 +820,61 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 7761,
+              "id": 7938,
               "name": "IGovernor",
               "nameLocations": [
-                "312:9:10"
+                "312:9:11"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3796,
-              "src": "312:9:10"
+              "referencedDeclaration": 4908,
+              "src": "312:9:11"
             },
-            "id": 7762,
+            "id": 7939,
             "nodeType": "InheritanceSpecifier",
-            "src": "312:9:10"
+            "src": "312:9:11"
           }
         ],
         "canonicalName": "IGovernorTimelock",
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 7760,
+          "id": 7937,
           "nodeType": "StructuredDocumentation",
-          "src": "165:107:10",
+          "src": "165:107:11",
           "text": " @dev Extension of the {IGovernor} for timelock supporting modules.\n _Available since v4.3._"
         },
         "fullyImplemented": false,
-        "id": 7797,
+        "id": 7974,
         "linearizedBaseContracts": [
-          7797,
-          3796,
-          10295
+          7974,
+          4908,
+          10788
         ],
         "name": "IGovernorTimelock",
-        "nameLocation": "291:17:10",
+        "nameLocation": "291:17:11",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
             "eventSelector": "9a2e42fd6722813d69113e7d0079d3d940171428df7373df9c7f7617cfda2892",
-            "id": 7768,
+            "id": 7945,
             "name": "ProposalQueued",
-            "nameLocation": "334:14:10",
+            "nameLocation": "334:14:11",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 7767,
+              "id": 7944,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7764,
+                  "id": 7941,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "proposalId",
-                  "nameLocation": "357:10:10",
+                  "nameLocation": "357:10:11",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7768,
-                  "src": "349:18:10",
+                  "scope": 7945,
+                  "src": "349:18:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -882,10 +882,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 7763,
+                    "id": 7940,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "349:7:10",
+                    "src": "349:7:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -895,14 +895,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 7766,
+                  "id": 7943,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "eta",
-                  "nameLocation": "377:3:10",
+                  "nameLocation": "377:3:11",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7768,
-                  "src": "369:11:10",
+                  "scope": 7945,
+                  "src": "369:11:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -910,10 +910,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 7765,
+                    "id": 7942,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "369:7:10",
+                    "src": "369:7:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -922,38 +922,38 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "348:33:10"
+              "src": "348:33:11"
             },
-            "src": "328:54:10"
+            "src": "328:54:11"
           },
           {
             "functionSelector": "d33219b4",
-            "id": 7773,
+            "id": 7950,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "timelock",
-            "nameLocation": "397:8:10",
+            "nameLocation": "397:8:11",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 7769,
+              "id": 7946,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "405:2:10"
+              "src": "405:2:11"
             },
             "returnParameters": {
-              "id": 7772,
+              "id": 7949,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7771,
+                  "id": 7948,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7773,
-                  "src": "437:7:10",
+                  "scope": 7950,
+                  "src": "437:7:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -961,10 +961,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 7770,
+                    "id": 7947,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "437:7:10",
+                    "src": "437:7:11",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -974,36 +974,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "436:9:10"
+              "src": "436:9:11"
             },
-            "scope": 7797,
-            "src": "388:58:10",
+            "scope": 7974,
+            "src": "388:58:11",
             "stateMutability": "view",
             "virtual": true,
             "visibility": "public"
           },
           {
             "functionSelector": "ab58fb8e",
-            "id": 7780,
+            "id": 7957,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "proposalEta",
-            "nameLocation": "461:11:10",
+            "nameLocation": "461:11:11",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 7776,
+              "id": 7953,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7775,
+                  "id": 7952,
                   "mutability": "mutable",
                   "name": "proposalId",
-                  "nameLocation": "481:10:10",
+                  "nameLocation": "481:10:11",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7780,
-                  "src": "473:18:10",
+                  "scope": 7957,
+                  "src": "473:18:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1011,10 +1011,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 7774,
+                    "id": 7951,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "473:7:10",
+                    "src": "473:7:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1023,21 +1023,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "472:20:10"
+              "src": "472:20:11"
             },
             "returnParameters": {
-              "id": 7779,
+              "id": 7956,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7778,
+                  "id": 7955,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7780,
-                  "src": "522:7:10",
+                  "scope": 7957,
+                  "src": "522:7:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1045,10 +1045,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 7777,
+                    "id": 7954,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "522:7:10",
+                    "src": "522:7:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1057,36 +1057,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "521:9:10"
+              "src": "521:9:11"
             },
-            "scope": 7797,
-            "src": "452:79:10",
+            "scope": 7974,
+            "src": "452:79:11",
             "stateMutability": "view",
             "virtual": true,
             "visibility": "public"
           },
           {
             "functionSelector": "160cbed7",
-            "id": 7796,
+            "id": 7973,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "queue",
-            "nameLocation": "546:5:10",
+            "nameLocation": "546:5:11",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 7792,
+              "id": 7969,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7783,
+                  "id": 7960,
                   "mutability": "mutable",
                   "name": "targets",
-                  "nameLocation": "578:7:10",
+                  "nameLocation": "578:7:11",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7796,
-                  "src": "561:24:10",
+                  "scope": 7973,
+                  "src": "561:24:11",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1095,19 +1095,19 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 7781,
+                      "id": 7958,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
-                      "src": "561:7:10",
+                      "src": "561:7:11",
                       "stateMutability": "nonpayable",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "id": 7782,
+                    "id": 7959,
                     "nodeType": "ArrayTypeName",
-                    "src": "561:9:10",
+                    "src": "561:9:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
                       "typeString": "address[]"
@@ -1117,13 +1117,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 7786,
+                  "id": 7963,
                   "mutability": "mutable",
                   "name": "values",
-                  "nameLocation": "612:6:10",
+                  "nameLocation": "612:6:11",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7796,
-                  "src": "595:23:10",
+                  "scope": 7973,
+                  "src": "595:23:11",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1132,18 +1132,18 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 7784,
+                      "id": 7961,
                       "name": "uint256",
                       "nodeType": "ElementaryTypeName",
-                      "src": "595:7:10",
+                      "src": "595:7:11",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 7785,
+                    "id": 7962,
                     "nodeType": "ArrayTypeName",
-                    "src": "595:9:10",
+                    "src": "595:9:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
                       "typeString": "uint256[]"
@@ -1153,13 +1153,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 7789,
+                  "id": 7966,
                   "mutability": "mutable",
                   "name": "calldatas",
-                  "nameLocation": "643:9:10",
+                  "nameLocation": "643:9:11",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7796,
-                  "src": "628:24:10",
+                  "scope": 7973,
+                  "src": "628:24:11",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1168,18 +1168,18 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 7787,
+                      "id": 7964,
                       "name": "bytes",
                       "nodeType": "ElementaryTypeName",
-                      "src": "628:5:10",
+                      "src": "628:5:11",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes_storage_ptr",
                         "typeString": "bytes"
                       }
                     },
-                    "id": 7788,
+                    "id": 7965,
                     "nodeType": "ArrayTypeName",
-                    "src": "628:7:10",
+                    "src": "628:7:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_bytes_storage_$dyn_storage_ptr",
                       "typeString": "bytes[]"
@@ -1189,13 +1189,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 7791,
+                  "id": 7968,
                   "mutability": "mutable",
                   "name": "descriptionHash",
-                  "nameLocation": "670:15:10",
+                  "nameLocation": "670:15:11",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7796,
-                  "src": "662:23:10",
+                  "scope": 7973,
+                  "src": "662:23:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1203,10 +1203,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 7790,
+                    "id": 7967,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "662:7:10",
+                    "src": "662:7:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1215,21 +1215,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "551:140:10"
+              "src": "551:140:11"
             },
             "returnParameters": {
-              "id": 7795,
+              "id": 7972,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7794,
+                  "id": 7971,
                   "mutability": "mutable",
                   "name": "proposalId",
-                  "nameLocation": "724:10:10",
+                  "nameLocation": "724:10:11",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7796,
-                  "src": "716:18:10",
+                  "scope": 7973,
+                  "src": "716:18:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1237,10 +1237,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 7793,
+                    "id": 7970,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "716:7:10",
+                    "src": "716:7:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1249,21 +1249,29 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "715:20:10"
+              "src": "715:20:11"
             },
-            "scope": 7797,
-            "src": "537:199:10",
+            "scope": 7974,
+            "src": "537:199:11",
             "stateMutability": "nonpayable",
             "virtual": true,
             "visibility": "public"
           }
         ],
-        "scope": 7798,
-        "src": "273:465:10",
-        "usedErrors": []
+        "scope": 7975,
+        "src": "273:465:11",
+        "usedErrors": [],
+        "usedEvents": [
+          4651,
+          4656,
+          4661,
+          4674,
+          4689,
+          7945
+        ]
       }
     ],
-    "src": "112:627:10"
+    "src": "112:627:11"
   },
   "bytecode": "",
   "bytecodeSha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
@@ -1273,7 +1281,7 @@
       "enabled": true,
       "runs": 200
     },
-    "version": "0.8.17+commit.8df45f5f"
+    "version": "0.8.21+commit.d9974bed"
   },
   "contractName": "IGovernorTimelock",
   "coverageMap": {
@@ -1289,6 +1297,23 @@
   "language": "Solidity",
   "natspec": {
     "details": "Extension of the {IGovernor} for timelock supporting modules. _Available since v4.3._",
+    "events": {
+      "ProposalCanceled(uint256)": {
+        "details": "Emitted when a proposal is canceled."
+      },
+      "ProposalCreated(uint256,address,address[],uint256[],string[],bytes[],uint256,uint256,string)": {
+        "details": "Emitted when a proposal is created."
+      },
+      "ProposalExecuted(uint256)": {
+        "details": "Emitted when a proposal is executed."
+      },
+      "VoteCast(address,uint256,uint8,uint256,string)": {
+        "details": "Emitted when a vote is cast without params. Note: `support` values should be seen as buckets. Their interpretation depends on the voting module used."
+      },
+      "VoteCastWithParams(address,uint256,uint8,uint256,string,bytes)": {
+        "details": "Emitted when a vote is cast with params. Note: `support` values should be seen as buckets. Their interpretation depends on the voting module used. `params` are additional encoded parameters. Their intepepretation also depends on the voting module used."
+      }
+    },
     "kind": "dev",
     "methods": {
       "COUNTING_MODE()": {
@@ -1379,6 +1404,6 @@
   "sha1": "70a0f132eccd856e6ded4f881ed2848fba05b63e",
   "source": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts v4.4.1 (governance/extensions/IGovernorTimelock.sol)\n\npragma solidity ^0.8.0;\n\nimport \"../IGovernor.sol\";\n\n/**\n * @dev Extension of the {IGovernor} for timelock supporting modules.\n *\n * _Available since v4.3._\n */\nabstract contract IGovernorTimelock is IGovernor {\n    event ProposalQueued(uint256 proposalId, uint256 eta);\n\n    function timelock() public view virtual returns (address);\n\n    function proposalEta(uint256 proposalId) public view virtual returns (uint256);\n\n    function queue(\n        address[] memory targets,\n        uint256[] memory values,\n        bytes[] memory calldatas,\n        bytes32 descriptionHash\n    ) public virtual returns (uint256 proposalId);\n}\n",
   "sourceMap": "",
-  "sourcePath": "/Users/cromewar/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/extensions/IGovernorTimelock.sol",
+  "sourcePath": "/Users/hedvikapajerova/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.8.1/contracts/governance/extensions/IGovernorTimelock.sol",
   "type": "contract"
 }

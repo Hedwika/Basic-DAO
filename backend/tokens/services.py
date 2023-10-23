@@ -11,7 +11,7 @@ def get_token_balance(address):
     params = {
         "address": address,
         "chain": "0x5",
-        "token_addresses": ["0x761D630b3697a58B9c741b4D54B27226237792BC"],
+        "token_addresses": ["0x6b6Aab689a4c5df1FbA0dFF2560E45683459b29a"],
     }
 
     result = evm_api.token.get_wallet_token_balances(
@@ -55,3 +55,6 @@ def verify_challenge(message, signature):
     )
 
     return result
+
+# value = get_token_balance("0xe9f377136a5f696DE4DCd28aA93afE2186603a96")
+# print(value)
